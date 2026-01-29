@@ -34,7 +34,27 @@ JobConnect is a modern, serverless recruitment platform designed to bridge the g
 - A Firebase project set up
 - An EmailJS account and templates configured
 
-### Installation
+### 🚀 Installation & Setup
 1. **Clone the repo:**
    ```bash
    git clone [https://github.com/HassanKhalid8/Job-Connect.git](https://github.com/HassanKhalid8/Job-Connect.git)
+
+2. **Install Dependencies**
+Run the following command in your terminal to install all necessary packages for the project:
+   ```bash
+   npm install
+
+3. **Configure Environment Variables**
+Create a file named .env in the root folder of your project and add your specific credentials.
+
+Note: Since this project uses Vite, all environment variables must start with the prefix VITE_ to be accessible in your code.
+   ```bash
+   VITE_FIREBASE_API_KEY=your_api_key
+   VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   VITE_FIREBASE_PROJECT_ID=your_project_id
+   VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_id
+   VITE_FIREBASE_APP_ID=your_app_id
+   VITE_EMAILJS_SERVICE_ID=your_service_id
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key
