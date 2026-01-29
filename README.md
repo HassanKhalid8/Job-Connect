@@ -40,14 +40,13 @@ JobConnect is a modern, serverless recruitment platform designed to bridge the g
    git clone [https://github.com/HassanKhalid8/Job-Connect.git](https://github.com/HassanKhalid8/Job-Connect.git)
 
 2. **Install Dependencies**
-Run the following command in your terminal to install all necessary packages for the project:
+   Run the following command in your terminal to install all necessary packages for the project:
    ```bash
    npm install
 
 3. **Configure Environment Variables**
-Create a file named .env in the root folder of your project and add your specific credentials.
-
-Note: Since this project uses Vite, all environment variables must start with the prefix VITE_ to be accessible in your code.
+   Create a file named .env in the root folder of your project and add your specific credentials.
+   Note: Since this project uses Vite, all environment variables must start with the prefix VITE_ to be accessible in your code.
    ```bash
    VITE_FIREBASE_API_KEY=your_api_key
    VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
@@ -58,3 +57,8 @@ Note: Since this project uses Vite, all environment variables must start with th
    VITE_EMAILJS_SERVICE_ID=your_service_id
    VITE_EMAILJS_TEMPLATE_ID=your_template_id
    VITE_EMAILJS_PUBLIC_KEY=your_public_key
+
+4. **Start the Development Server**
+   Once the dependencies are installed and your environment variables are set, run the following command to start the app locally:
+   ```bash
+   npm run dev
