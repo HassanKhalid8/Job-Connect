@@ -381,7 +381,7 @@ where the browser supports it.
 </p>
 
 <p align="center">
-  <sub>Built by <b>Hassan Khalid</b> · <b>Maham Imran</b> · <b>Moiz ud din</b></sub>
+  <sub>Built by <b>Hassan Khalid</b> · <b>Maham Imran</b> · <b>Moiz ud Din</b></sub>
   <br/>
   <a href="https://job-connect-delta-woad.vercel.app/"><sub>job-connect-delta-woad.vercel.app</sub></a>
 </p>
